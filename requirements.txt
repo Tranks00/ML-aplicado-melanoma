@@ -1,0 +1,19 @@
+# Arquivo de dependências para o projeto de reprodução científica
+
+# Core para manipulação de dados e computação numérica
+pandas
+numpy
+
+# Framework de Machine Learning e Deep Learning
+scikit-learn
+tensorflow
+
+# Para visualização de dados
+plotly
+kaleido
+
+# API para download do dataset
+kaggle
+
+# Processamento de Imagens
+Pillow
