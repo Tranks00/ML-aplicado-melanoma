@@ -41,7 +41,7 @@ Este projeto foi projetado para ser executado no ambiente do Google Colab, que j
    - Abra o notebook com o Google Colab.
 
 **3. Execute o Script Principal**
- - O notebook foi estruturado para instalar a dependência `kaleido que já está no script principal.
+ - O notebook foi estruturado para instalar a dependência kaleido que já está no script principal.
       ```python
      !pip install kaleido
      ```
