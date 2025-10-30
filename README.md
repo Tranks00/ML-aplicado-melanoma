@@ -41,10 +41,10 @@ Este projeto foi projetado para ser executado no ambiente do Google Colab, que j
    - Abra o notebook com o Google Colab.
 
 **3. Execute o Script Principal**
- - O notebook foi estruturado para instalar a dependência kaleido que já está no script principal.
+   - O notebook foi estruturado para instalar a dependência kaleido que já está no script principal.
       ```python
      !pip install kaleido
-     ```
+     ``` então não é necessário fazer a intalação antes de executar o script principal.
    - Execute a célula principal que contém todo o pipeline do projeto.
    - A primeira etapa do script (`ETAPA 0`) irá pedir para você fazer o upload de um arquivo.
    - Clique no botão **"Escolher arquivos"** e selecione o `kaggle.json` que você baixou no Passo 1.
