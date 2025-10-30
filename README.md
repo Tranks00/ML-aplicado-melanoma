@@ -8,7 +8,7 @@ Este repositório contém o código e os resultados do projeto de reprodução c
 
 ## Resumo do Projeto
 
-O objetivo deste projeto é analisar criticamente e reproduzir a metodologia proposta no artigo citado. O método combina a extração de características de imagens de lesões de pele, utilizando a rede convolucional VGG19 pré-treinada [3], com a classificação subsequente por meio de algoritmos tradicionais de Machine Learning, como SVM, Regressão Logística e Perceptron [1, 4].
+O objetivo deste projeto é analisar e reproduzir a metodologia proposta no artigo citado. O método combina a extração de características de imagens de lesões de pele, utilizando a rede convolucional VGG19 pré-treinada [3], com a classificação subsequente por meio de algoritmos tradicionais de Machine Learning, como SVM, Regressão Logística e Perceptron [1, 4].
 
 O projeto foi implementado em um notebook do Google Colab e utiliza o dataset público **HAM10000** [2]. Para otimizar o tempo de execução dos experimentos, foi utilizada uma amostra estratificada correspondente a 30% do conjunto de dados original.
 
@@ -40,21 +40,16 @@ Este projeto foi projetado para ser executado no ambiente do Google Colab, que j
    - Faça o upload do arquivo `.ipynb` deste repositório para o seu Google Drive.
    - Abra o notebook com o Google Colab.
 
-**3. Execute a Célula de Instalação (se houver)**
-
-   - O notebook foi estruturado para instalar a dependência `kaleido` em uma célula separada no início. Execute esta célula primeiro.
-
-     ```python
+**3. Execute o Script Principal**
+   - O notebook foi estruturado para instalar a dependência `kaleido que já está no script principal.
+      ```python
      !pip install kaleido
      ```
-
-**4. Execute o Script Principal**
-
    - Execute a célula principal que contém todo o pipeline do projeto.
    - A primeira etapa do script (`ETAPA 0`) irá pedir para você fazer o upload de um arquivo.
    - Clique no botão **"Escolher arquivos"** e selecione o `kaggle.json` que você baixou no Passo 1.
 
-**5. Aguarde a Execução**
+**4. Aguarde a Execução**
 
    - Após o upload do `kaggle.json`, o script continuará a execução automaticamente:
      - **Download e Descompactação:** Baixará o dataset do Kaggle (aproximadamente 5.2 GB).
