@@ -17,7 +17,6 @@ Os resultados obtidos validaram as conclusões do artigo, demonstrando o desafio
 ---
 
 ## Como Configurar o Ambiente e Executar os Experimentos
-...
 
 Este projeto foi projetado para ser executado no ambiente do Google Colab, que já vem com a maioria das dependências pré-instaladas. Siga os passos abaixo para replicar os resultados.
 
@@ -40,13 +39,13 @@ Este projeto foi projetado para ser executado no ambiente do Google Colab, que j
    - Faça o upload do arquivo `.ipynb` deste repositório para o seu Google Drive.
    - Abra o notebook com o Google Colab.
 
-**3. Execute o Script Principal**
-   - O notebook foi estruturado para instalar a dependência kaleido que já está no script principal.
-      ```python
-     !pip install kaleido
-     ``` então não é necessário fazer a intalação antes de executar o script principal.
+**3. Execute o Script Principal (Instalação e Processamento)**
+
+**Atenção:** A dependência `kaleido` é essencial para gerar o gráfico final e está incluída na célula inicial de instalação dentro do notebook.
+
    - Execute a célula principal que contém todo o pipeline do projeto.
-   - A primeira etapa do script (`ETAPA 0`) irá pedir para você fazer o upload de um arquivo.
+    - O comando de instalação de dependências (ex: `!pip install kaleido`) deve ser executado antes da etapa de processamento.
+    - A primeira etapa do script (`ETAPA 0`) irá pedir para você fazer o upload de um arquivo.
    - Clique no botão **"Escolher arquivos"** e selecione o `kaggle.json` que você baixou no Passo 1.
 
 **4. Aguarde a Execução**
