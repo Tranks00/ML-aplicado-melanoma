@@ -56,7 +56,7 @@ Este projeto foi projetado para ser executado no ambiente do Google Colab, que j
      - **Treinamento e Avaliação:** Treinará os 7 classificadores.
      - **Geração de Resultados:** Exibirá a tabela de métricas e o gráfico de radar final.
 
-O processo completo, utilizando a amostra de 30% dos dados, deve levar entre 58 a 60 minutos, dependendo dos recursos alocados pelo Colab.
+O processo completo, utilizando a amostra de 30% dos dados, deve levar entre 70 a 80 minutos, dependendo dos recursos alocados pelo Colab.
 
 ---
 
